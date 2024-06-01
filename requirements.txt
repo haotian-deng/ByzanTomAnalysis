@@ -1,0 +1,19 @@
+# GUI framework
+PySimpleGUI
+
+# Data manipulation and analysis
+pandas
+
+# Numerical computations
+numpy
+
+# Network analysis
+networkx
+igraph
+
+# Plotting and visualization
+matplotlib
+
+# Graph visualization
+pydot
+graphviz

@@ -1,0 +1,65 @@
+Source,Target,Type,Id,Label,timeset,Weight,linktype,linklabel,linknote
+0,2,Directed,0,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+1,2,Directed,1,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+1,6,Directed,2,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+2,3,Directed,3,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+2,4,Directed,4,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+2,39,Directed,5,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+2,46,Directed,6,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+4,33,Directed,7,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+4,5,Directed,8,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+4,7,Directed,9,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+5,8,Directed,10,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+6,7,Directed,11,,,1,Fiber,Leased Fiber Route,Leased  Route
+8,9,Directed,12,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+8,27,Directed,13,,,1,Fiber,Leased Fiber Route,Leased  Route
+8,33,Directed,14,,,1,Fiber,Leased Fiber Route,Leased  Route
+10,19,Directed,15,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+11,25,Directed,16,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+11,21,Directed,17,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+12,40,Directed,18,,,1,Fiber,Leased Fiber Route,Leased  Route
+12,28,Directed,19,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+12,14,Directed,20,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+13,29,Directed,21,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+13,14,Directed,22,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+14,16,Directed,23,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+14,15,Directed,24,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+15,16,Directed,25,,,2,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+16,17,Directed,27,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+16,21,Directed,28,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+16,23,Directed,29,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+17,18,Directed,30,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+18,19,Directed,31,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+20,21,Directed,32,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+20,22,Directed,33,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+20,23,Directed,34,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+21,25,Directed,35,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+22,24,Directed,36,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+22,25,Directed,37,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+24,25,Directed,38,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+26,27,Directed,39,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+27,33,Directed,40,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+27,38,Directed,41,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+27,39,Directed,42,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+28,29,Directed,43,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+29,34,Directed,44,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+29,43,Directed,45,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+30,32,Directed,46,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+30,33,Directed,47,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+30,31,Directed,48,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+31,33,Directed,49,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+31,35,Directed,50,,,1,Fiber,Leased Fiber Route,Leased  Route
+31,36,Directed,51,,,1,Fiber,Leased Fiber Route,Leased  Route
+31,37,Directed,52,,,1,Fiber,Leased Fiber Route,Leased  Route
+34,42,Directed,53,,,1,Fiber,Leased Fiber Route,Leased  Route
+34,45,Directed,54,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+35,40,Directed,55,,,1,Fiber,Leased Fiber Route,Leased  Route
+35,36,Directed,56,,,1,Fiber,Leased Fiber Route,Leased  Route
+36,37,Directed,57,,,1,Fiber,Leased Fiber Route,Leased  Route
+38,47,Directed,58,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+40,41,Directed,59,,,1,Fiber,Leased Fiber Route,Leased  Route
+41,42,Directed,60,,,1,Fiber,Leased Fiber Route,Leased  Route
+43,44,Directed,61,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+44,45,Directed,62,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+45,46,Directed,63,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
+45,47,Directed,64,,,1,Fiber,Bell Canada Fiber Routes,Bell Canada  Routes
