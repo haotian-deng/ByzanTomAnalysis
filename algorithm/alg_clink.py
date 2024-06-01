@@ -151,7 +151,7 @@ def algorithm_map(R_set, link_prob):
     return X_set
 
 
-def clink_algorithm(reduced_rm, link_p, queue=None):
+def alg_clink(reduced_rm, link_p, queue=None):
     def get_domain(reduced_congested_rm, link_probability):
         # 计算Domain值
         Domain = np.zeros(link_probability.shape[0], dtype=int)
@@ -295,8 +295,8 @@ if __name__ == '__main__':
 
     # 得到拥塞路由矩阵
     # con_rm_idx = con_rm_gen(A_rm, path_stat)
-    # # result_clink = clink_algorithm(con_rm_idx, link_prob)[0]
-    # result_clink = clink_algorithm(con_rm_idx, link_prob)
+    # # result_clink = alg_clink(con_rm_idx, link_prob)[0]
+    # result_clink = alg_clink(con_rm_idx, link_prob)
     # # result_clink = result_clink
     # print("CLINK算法结果:\n", result_clink)
 

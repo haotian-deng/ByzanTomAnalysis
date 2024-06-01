@@ -2,11 +2,10 @@ import PySimpleGUI as sg
 import matplotlib.pyplot as plt
 import os.path
 import igraph as ig
-import numpy as np
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg as fct
 import re
 from algorithm.alg_scfs import *
-from algorithm.alg_clink import clink_algorithm, con_rm_gen
+from algorithm.alg_clink import alg_clink, con_rm_gen
 from algorithm.alg_map import alg_map
 
 
@@ -413,7 +412,7 @@ class GUI:
                                 # clink诊断
                                 # # 生成路由矩阵
                                 R_set = con_rm_gen(self.matrix, paths_obs, False, None, False)
-                                links_state_inferred, _ = clink_algorithm(R_set, pro)
+                                links_state_inferred, _ = alg_clink(R_set, pro)
                                 links_state_inferred = idx2bin(links_state_inferred, self.matrix.shape[1])
                             else:
                                 # map诊断
@@ -468,7 +467,7 @@ class GUI:
                                 # clink诊断
                                 # # 生成路由矩阵
                                 R_set = con_rm_gen(self.matrix, paths_obs, False, None, False)
-                                links_state_inferred, _ = clink_algorithm(R_set, pro)
+                                links_state_inferred, _ = alg_clink(R_set, pro)
                                 links_state_inferred = idx2bin(links_state_inferred, self.matrix.shape[1])
                             else:
                                 # map诊断
@@ -569,7 +568,7 @@ class GUI:
                         # clink诊断
                         # # 生成路由矩阵
                         R_set = con_rm_gen(self.matrix, self.path_attacked.reshape(1, -1), False, None, False)
-                        links_state_inferred_att, _ = clink_algorithm(R_set, pro)
+                        links_state_inferred_att, _ = alg_clink(R_set, pro)
                         links_state_inferred_att = idx2bin(links_state_inferred_att, self.matrix.shape[1])
                     else:
                         # map诊断
