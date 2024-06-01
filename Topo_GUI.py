@@ -2,6 +2,7 @@ import PySimpleGUI as sg
 import matplotlib.pyplot as plt
 import os.path
 import igraph as ig
+import numpy as np
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg as fct
 import re
 from algorithm.alg_scfs import *
@@ -187,13 +188,21 @@ class GUI:
                   links_state: np.ndarray = None, links_state_inferred: np.ndarray = None,
                   paths_state: np.ndarray = None, paths_attacked=None,
                   performance=None, highlight: tuple = None):
+        def idx2bin(idx, num):
+            # 输入多维的序号集， 返回多维二进制数组, num为链路数
+            bin = np.zeros((idx.shape[0], num), dtype=int)
+            for i, arr in enumerate(idx):
+                if arr.shape[0]:
+                    bin[i, arr - 1] = 1
+            return bin
         # 创建图像
         # 设置图像参数
         self.ax.clear()
         if paths_attacked is not None:
             paths_truth = paths_state.copy()
             paths_state = paths_attacked.copy()
-            links_state_inferred = alg_SCFS(A_rm, paths_state.reshape(1, -1)).transpose()[0]
+            links_state_inferred = alg_SCFS(A_rm, paths_state.reshape(1, -1)).transpose()
+            links_state_inferred = idx2bin(links_state_inferred, A_rm.shape[1])[0]
 
         tree_vector = tree_vector_rm(A_rm)
         vertices = tree_vector.shape[0] + 1
